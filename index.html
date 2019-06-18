@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Unified script of India - Bharati</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Site Icons -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="img/favicon.ico">
+        <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'> -->
+        <base target="_blank">
+        <link rel="stylesheet" href="css/teamTable.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css"> -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/testimonialStyle.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script>
+            $(function(){
+              $("#navbarContent").load("navbar.html"); 
+            });
+        </script>
+    </head>
+    <style media="screen">
+        .loader{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*background-image: url(../img/IncIndia.jpg);        */
+        }
+        .loader > img{
+        width: 200px;
+        }
+        .loader-hidden{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeOut 1s;
+        animation-fill-mode: forwards;
+        }
+        @keyframes fadeOut{
+        100%{
+        opacity: 0;
+        visibility: hidden;
+        }
+        }
+    </style>
+    <style type="text/css">
+        #socialMediaIcon {
+        /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+        filter: gray; /* IE5+ */
+        -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+        -webkit-transition: all .2s ease-in-out;
+        }
+        #socialMediaIcon:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+        }
+        .videowrapper { 
+        float: none;
+        clear: both;
+        width: 700px;<-- Added-->
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 415px;
+        height: 0;
+        margin: 0 auto;<-- Added-->
+        max-width: 100%;<-- Added-->
+        }
+        @media screen and (min-width: 768px) {
+            .embed-container {
+            position: relative;
+            padding-bottom: 39.375%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            } 
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 10%;
+            width: 80%;
+            height: 100%;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .embed-container {
+            position: relative;
+            padding-bottom: 39.375%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            } 
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+        }
+        }
+        #card
+        {
+        width: 15vh;
+        height: 20vh;
+        margin: 10px;
+        border-radius: 4px;
+        border:1px solid rgba(0,0,0,0.1);
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        background-image: url(media/Icons/document-icon.png);
+        }
+        .section-content p { 
+        font-size: 15px;
+        color: #FFFFFF;
+        /*position: absolute;*/
+        top: 125px;
+        text-align: justify;
+        }
+        .section-content a {
+        color: #59ab52;
+        }
+        .table-responsive table {
+        margin: 0 auto;
+        }
+        .table-responsive p {
+        color: #59AB52;
+        text-align: center;
+        }
+        #title {
+        text-align: center;
+        }
+        .table-responsive td {
+        padding: 5%;
+        }
+        /*.navbar {min-height:80px !important}*/
+    </style>
+    <body>
+        <div class="loader">
+            <img src="media/loading.gif" alt="Loading..." />
+        </div>
+        <div id="navbarContent"></div>
+        <div class="slider">
+            <div class="Modern-Slider content-section-header-image" id="top">
+                <!-- Item -->
+                <div class="tint item item-1">
+                    <div class="img-fill">
+                        <div class="image"></div>
+                        <div class="info">
+                            <div>
+                                <h1>One Nation. One script.</h1>
+                                <p>Bharati is designed to be a common script for Indian languages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="page-content">
+        <section id="about" class="content-section">
+            <div class="section-heading">
+                <h1><em>About</em></h1>
+            </div>
+            <div class="section-content">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/xjrWhawbwI8' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
+        </section>
+        <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="introduction" class="content-section">
+            <div class="section-heading">
+                <h1><em>Introduction</em></h1>
+            </div>
+            <p>Bharati is being proposed as a common script for India. The Roman script is used as a common script for many European languages (English, French, German, Italian etc.), which facilitates communication across nations that speak and write those languages. Likewise a common script for the entire country is hoped to bring down many communication barriers in India.</p>
+            <div class='embed-container'>
+                <iframe src="https://www.youtube.com/embed/YHFHUAPrCWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </section>
+        <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="characters" class="content-section">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h1><em>Characters</em></h1>
+                    </div>
+                    <p>An idenical set of Bharati characters is mapped to the scripts of various India languages. Here are the documents containing the mapping.</p>
+                    <div class="table-responsive">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="media/CharactersMap/BengaliBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Bengali</p>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="media/CharactersMap/DevanagariBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Devanagari</p>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="media/CharactersMap/GujaratiBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Gujarati</p>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="media/CharactersMap/GurmukhiBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Gurmukhi</p>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="media/CharactersMap/KannadaBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Kannada</p>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="media/CharactersMap/MalayalamBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Malayalam</p>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="media/CharactersMap/OdiaBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Odia</p>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="media/CharactersMap/TamilBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Tamil</p>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="media/CharactersMap/TeluguBharatiMap.pdf" target="_blank">
+                                        <div id='card'></div>
+                                        <p>Telugu</p>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="videos" class="content-section">
+            <div class="section-heading">
+                <h1><em>Videos</em></h1>
+            </div>
+            <div class="section-content">
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/YHIpbRl6c-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <br>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/5P_8c_fGkZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <br>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/5TLi4esGCYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <br>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/n-0mKn0ssR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+            </div>
+        </section>
+        <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="books" class="content-section">
+            <div class="section-heading">
+                <h1><em>Bharati Primers</em></h1>
+            </div>
+            <p>'Bharati Primer' provides a quick way to master Bharati script, having known an Indian language. It contains Bharati characters mapping for the Indian script in brief and list words for each character in the script with Bharati transliteration.</p>
+            <div class="table-responsive">
+                <table align="center">
+                    <tr>
+                    	<td>
+                            <a href="media/Books/Primers/AssamesePrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Assamese</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/BengaliPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Bengali</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/BodoPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Bodo</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/Books/Primers/GujaratiPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Gujarati</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/HindiPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Hindi</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/KannadaPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Kannada</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/Books/Primers/MalayalamPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Malayalam</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/MarathiPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Marathi</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/SanskritPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Sanksrit</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/Books/Primers/TamilPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Tamil</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Primers/TeluguPrimer.pdf" target="_blank">
+                                <div id='card'></div>
+                                <p>Telugu</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section-heading">
+                <h1><em>Transliterated Works and Learning Resources</em></h1>
+            </div>
+            <p>We are building a list of well recognized / impactful literature transliterated into Bharati. This list is not complete and will constantly be updated. If you would like to contribute to the resources, reach out to the button at the end of each of the following pages. If you want a specific text in Bharati, you can e-mail us the details of the book at <a href="mailto:admin@bharatiscript.com">admin@bharatiscript.com</a> or <a href="mailto:bharatiscript@gmail.com">bharatiscript@gmail.com</a>.</p>
+            <div class="table-responsive">
+                <table align="center">
+                    <tr>
+                        <td>
+                            <a href="media/Books/Literature/Sanskrit/SanskritBooks.html" target="_blank">
+                                <div id='card'></div>
+                                <p>Sanskrit</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Literature/Hindi/HindiBooks.html" target="_blank">
+                                <div id='card'></div>
+                                <p>Hindi</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Literature/Bengali/BengaliBooks.html" target="_blank">
+                                <div id='card'></div>
+                                <p>Bengali</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="media/Books/Literature/Odia/OdiaBooks.html" target="_blank">
+                                <div id='card'></div>
+                                <p>Odia</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Literature/Tamil/TamilBooks.html" target="_blank">
+                                <div id='card'></div>
+                                <p>Tamil</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="media/Books/Literature/Telugu/TeluguBooks.html" target="_blank">
+                                <div id='card'></div>
+                                <p>Telugu</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="fonts" class="content-section">
+            <div class="section-heading">
+                <h1><em>Bharati Font</em></h1>
+            </div>
+            <p>Bharati fonts let Bharati characters to be typed in word processors such as Microsoft word, LibreOffice writer, etc. It works by transliterating the characters, as you type in Indian scripts to Bharati script. </p>
+            <div class="section-content text-left">
+                <p>
+                    At present, two Bharati fonts are available:<br><br>
+                    1. NavBharati - supports Devanagari, Tamil, Telugu, and Malayalam scripts.<br>
+                </p>
+                <p style="margin-left: 20px">
+                    To setup NavBharati font - download the font from <a href="media/Fonts/NavBharati.ttf" download> here</a>, right click on the file and then select install option.<br>
+                </p>
+                <p>
+                    2. SundarBharati - supports Devanagari, Tamil, Telugu, Kannada, Bengali and Malayalam scripts.<br>
+                </p>
+                <p style="margin-left: 20px">    
+                    To setup SundarBharati font - download the font from <a href="media/Fonts/SundarBharati-Regular.otf" download> here</a>, right click on the file and then select install option.<br><br>
+                </p>
+                <p>
+                    To Transliterate a content to Bharati script:<br><br>
+                    1. Select the content in native Indic script.<br>
+                    2. Change the font type to NavBharati/SundarBharati. Once it is done, the content appears in Bharati script.<br><br>
+                </p>
+                <p>
+                    Typing in Indic languages in Desktop applications:<br><br>
+                    <b><u>Windows: </u></b><br>
+                    Download <a href="https://www.vishalon.net/pramukhime/windows" target="_blank">PramukhIME</a> for Windows. Using PramukhIME for Windows, you can directly input Indic script in MS Office (Word, Excel, PowerPoint, etc), Internet Explorer, FireFox, Skype and other applications in your favourite language.
+                    The following video enunciates the font setup and usage procedure in Windows:
+                </p>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/bwfMymsiNZg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                </div>
+                <p><br><br>
+                    <b><u>Unix/Linux: </u></b><br>
+                    Use Intelligent Input Bus (IBus), an input method framework for multilingual input in Unix-like operating systems. It supports Indic languages as well. It comes pre-built in many flavours of Linux like Ubuntu. Ibus package installation and usage instruction can be found <a href="https://help.ubuntu.com/community/ibus" target="_blank">here</a>.
+                </p>
+                <p><br>
+                    <font color="#FF9933"><b>To read in Bharati font in browser-</b></font><br><br>
+                    <b><u>Chrome users:</u></b><br>
+                    1) Click on <i>3 dots</i> in the top right >> Settings >> Customise fonts (in Appearence section).<br>
+                    2) Set Standard font to any Bharati font.<br>
+                    3) The change in font will be saved automatically.<br>
+                    <br>
+                    <u>Tip:</u><i> Font size can be set in the 'customise fonts' section as per the liking.</i>
+                    <br><br>
+                    <font color="#FF9933"><b>To write in Bharati font in browser-</b></font><br><br>
+                    <b><u>Chrome users:</u></b><br>
+                    1) Go to "<a href="https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab?hl=en" target="_blank">Google input tools</a>" >> click on 'Add to Chrome' >> click on 'Add extension' in the alert box<br>
+                    Open Google input tools >> select the languages you want to type in (The languages for which you changed the font in the previous section).<br>
+                    2) Click on the extension icon >> choose 'Extension Options'.<br>
+                    3) Select the language you want to type in from the list and click on the arrow in the middle of the screen.<br>
+                    4) Now you can start writing emails in Bharati by turning on the Google input tools keyboard any time you want.<br><br>
+                    <b>Please Note:</b> The e-mail receiver must also follow the above mentioned steps to view the e-mail in Bharati.<br><br>
+                <center><i><font color="#59ab52">We are working on support for firefox and other browsers. Please bear with us.</font></i></center>
+                </p>
+            </div>
+        </section>
+        <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="apps" class="content-section">
+            <div class="section-heading">
+                <h1><em>Applications</em></h1>
+            </div>
+            <div class="section-content">
+                <p>
+                    Bharati Handwriting Keyboard is a handwriting based input tool for texting/text entry in Indian languages. Bharati is a simple and unified script which can be used to write most major Indian languages. It is designed using simplest shapes, often borrowing simple characters from various Indian languages/scripts. Bharati characters are designed such that the sound (phonetics) of the character is reflected in its shape, and therefore easy to remember. Languages supported are: Hindi/Marathi (Devanagari script), Bengali, Punjabi/Gurmukhi, Gujarati, Oriya, Telugu, Kannada, Tamil and Malayalam. The mapping between Bharati characters and the characters of the Indian languages listed above is given in help pages. Sample words are also given.<br>
+                    Bharati Handwriting Keyboard can be used to enter Indian language text in any app that involves a text editor. Once the text editor is open, a writable area pops up. The user must choose a language from the menu. The user then writes Bharati characters on the writing area with a stylus or a finger. The handwritten characters will be recognized by the app and converted into the Indian language/script selected and displayed as fonts. Bharati Handwriting Keyboard is best used for Indian language texting.<br><br><br><br><br><br>
+                </p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_1.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_2.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_3.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_4.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_5.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_6.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_7.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="media/AndroidKeyboard_Pics/SS_8.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <a href="https://play.google.com/store/apps/details?id=com.iitm.bharatikeyboard&hl=en" target="_blank"><img src="media/Icons/PlaystoreFull.png" width="30%" height="30%"></a>
+        </section>
+
+        <div class="page-content-full" style="position: relative;top: -80px;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+            <section id="research" class="content-section" style="top: -60px">
+                <div class="section-heading">
+                    <h1><em>Research</em></h1>
+                </div>
+                <div class="section-content">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h5>
+                    <a href="https://arxiv.org/pdf/1609.09227.pdf" target="_blank"><font color="000080">M. Naik and V. S. Chakravarthy, "A comparative study of complexity of handwritten Bharati characters with that of major Indian scripts," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 3050-3057. doi: 10.1109/IJCNN.2017.7966235</font></a>
+                            <h5>
+                        </li>
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h5>
+                    <a href="media/Research/ICVGIP2018.pdf" target="_blank"><font color="000080">V. Chandra Sekhar, V. Srinivasa Chakravarthy, Viswanath Pulabaigari, "An efficient Multi Lingual Optical Character Recognition system for Indian languages through use of Bharati Script," 4th workshop on document analysis and recognition (DAR-2018), 11th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP 2018) December 18 - 22, Hyderabad, India</font></a>
+                            <h5>
+                        </li>
+                    </ul>
+                </div>
+		<!--
+                <div class="section-content">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h3>
+                            We are looking for new sponsorers. CSR sponsorers are most welcome.<br>
+                            <a href="https://goo.gl/h8jicL" target="_blank"><font color="000080">Click here to register your interest.</font></a>
+                            <h3>
+                        </li>
+                    </ul>
+                </div>
+		-->
+            </section>
+
+        <div class="page-content-full" style="position: relative;top: -80px;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="news" class="content-section">
+            <div class="section-heading" style="top: -80px">
+                <h1><em>Media</em></h1>
+            </div>
+            <div class="section-content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_12.png" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <!-- <a href="media/NewsArticles/ArticlesOffline/TheHindu_27042019/IIT Madras_ Easy OCR system for nine Indian languages - The Hindu.html" target="_blank">Continue Reading</a> -->
+                                <a href="https://www.thehindu.com/sci-tech/science/iit-madras-easy-ocr-system-for-nine-indian-languages/article26966671.ece" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>The Hindi <br> (English)</h4>
+                        </div>
+                    </div>
+                	<div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_11.jpeg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="https://goo.gl/rTU73Y" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Sakshi <br> (Telugu)</h4>
+                        </div>
+                    </div>
+		    		<div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_10.jpeg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://www.teluguoneradio.com/archives/sadhana-37073-85.html" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>TeluguOne Radio On Internet <br> (Telugu)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_1.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://epaperbeta.timesofindia.com/Article.aspx?eid=31829&articlexml=28102017010016" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Maharashtra Times <br> (Marathi)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_3.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://www.deccanchronicle.com/nation/in-other-news/041017/script-which-helps-read-22-indian-languages-on-cards.html" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Deccan Chronicle <br> (English)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_4.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="https://www.thebetterindia.com/117220/22-official-languages-1652-dialects-script-by-iit-m-researchers-can-read-it-all/" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>The Better India <br> (English)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_6.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://digitalpaper.mathrubhumi.com/c/22670332" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Mathrubhimi <br> (Malayalam)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_2.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="https://goo.gl/9D9EkX" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Indian Express <br> (English)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_9.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://trak.in/random/bharati-script-unifies-all-22-indian-languages/" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Trak <br> (English)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_8.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://www.hindustantimes.com/delhi/iit-prof-s-pan-indian-script-for-languages/story-ADTG7SBrDtKXF8CnKoMtXM.html" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Hindustan Times <br> (English)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_7.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://www.sbs.com.au/yourlanguage/hindi/en/content/bharati-common-script-indian-languages" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Special Broadcasting Service, Australia (English)</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="media/NewsArticles/Article_5.jpg" alt="">
+                            <div class="news-button button" style="text-align: left;">
+                                <a href="http://timesofindia.indiatimes.com/india/IIT-prof-writes-one-script-to-unify-22-languages/articleshow/21114141.cms" target="_blank">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="text-content">
+                            <h4>Times of India <br> (English)</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div style="position: relative;top: -60px;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+        <section id="gallery" class="content-section">
+            <div class="section-heading" style="top: -60px">
+                <h1><em>Gallery</em></h1>
+            </div>
+            <!-- <div class="section-content"> -->
+            <div class="tabs-content">
+                <div class="wrapper">
+                    <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                        <li><a href="#tab1" class="active">Outreach</a></li>
+                        <li><a href="#tab2">Greetings</a></li>
+                        <li><a href="#tab3">Miscellaneous</a></li>
+                    </ul>
+                    <section id="first-tab-group" class="tabgroup">
+                        <div id="tab1">
+                            <ul>
+                                <li>
+                                    <div class="item">
+                                        <img src="img/outreach_thumbnail.png" alt="">
+                                        <div class="text-content">
+                                            <span>Collection of images portraying interaction with public about Bharati.</span>
+                                            <div class="accent-button button">
+                                                <a href="media/Gallery/Outreach/Pic_1.jpg" data-lightbox="outreachImage">Take a look</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab2">
+                            <ul>
+                                <li>
+                                    <div class="item">
+                                        <img src="img/greeting_thumbnail.png" alt="">
+                                        <div class="text-content">
+                                            <span>Collection of pictures that can be used to greet people for festivals.</span>
+                                            <div class="accent-button button">
+                                                <a href="media/Gallery/Greetings/NewYear/TamilNewYearGreetings.png" data-lightbox="greetingImage">Take a look</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab3">
+                            <ul>
+                                <li>
+                                    <div class="item">
+                                        <img src="img/pic_collection_thumbnail.png" alt="">
+                                        <div class="text-content">
+                                            <span>Miscellaneous images to implicate how Bharati can be used.</span>
+                                            <div class="accent-button button">
+                                                <a href="media/Gallery/Misc/Pic_1.jpg" data-lightbox="miscImage">Take a look</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- </div> -->
+        </section>
+        <!-- <section id="gallery" class="content-section">
+            <div class="section-heading">
+                <h1><em>Gallery</em></h1>
+            </div>
+            
+            <div class="section-content"> -->
+        <div class="art">
+        <div class="row">
+        <!-- <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_1.jpg" data-lightbox="outreachImage"><img src="media/Gallery/Outreach/Thumbnails/Pic_1_thumbnail.jpeg" alt="image 1"></a>
+            </div>
+            </div> -->
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_2.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_2_thumbnail.jpeg" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_3.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_3_thumbnail.jpeg" alt="image 3">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_4.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_4_thumbnail.jpeg" alt="image 4">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_5.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_5_thumbnail.jpeg" alt="image 5">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_6.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_6_thumbnail.jpeg" alt="image 6">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_7.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_7_thumbnail.jpeg" alt="image 7">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_8.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_8_thumbnail.jpeg" alt="image 8">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_9.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_9_thumbnail.jpeg" alt="image 9">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_10.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_10_thumbnail.jpeg" alt="image 9">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_11.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_11_thumbnail.jpeg" alt="image 11">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_12.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_12_thumbnail.jpeg" alt="image 12">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_13.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_13_thumbnail.jpeg" alt="image 13">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_14.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_14_thumbnail.jpeg" alt="image 14">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_15.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_15_thumbnail.jpeg" alt="image 15">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_16.png" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_16_thumbnail.png" alt="image 16">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_17.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_17_thumbnail.jpeg" alt="image 17">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_18.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_18_thumbnail.jpeg" alt="image 18">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_19.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_19_thumbnail.jpeg" alt="image 19">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_20.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_20_thumbnail.jpeg" alt="image 20">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_21.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_21_thumbnail.jpeg" alt="image 21">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_22.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_22_thumbnail.jpeg" alt="image 22">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_23.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_23_thumbnail.jpeg" alt="image 23">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_24.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_24_thumbnail.jpeg" alt="image 24">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_25.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_25_thumbnail.jpeg" alt="image 25">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_26.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_26_thumbnail.jpeg" alt="image 26">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_27.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_27_thumbnail.jpeg" alt="image 27">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_28.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_28_thumbnail.jpeg" alt="image 28">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_29.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_29_thumbnail.jpeg" alt="image 29">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_30.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_30_thumbnail.jpeg" alt="image 30">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_31.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_31_thumbnail.jpeg" alt="image 31">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_32.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_32_thumbnail.jpeg" alt="image 32">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_33.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_33_thumbnail.jpeg" alt="image 33">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_34.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_34_thumbnail.jpeg" alt="image 34">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_35.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_35_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_36.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_36_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_37.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_37_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_38.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_38_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_39.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_39_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_40.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_40_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_41.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_41_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_42.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_42_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_43.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_43_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_44.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_44_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_45.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_45_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_46.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_46_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_47.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_47_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_48.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_48_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Outreach/Pic_49.jpg" data-lightbox="outreachImage">
+                    <!--<img src="media/Gallery/Outreach/Thumbnails/Pic_49_thumbnail.jpeg" alt="image 35">-->
+                </a>
+            </div>
+        </div>
+        <!-- </div>
+            </div> -->
+        <!-- </div> -->
+        <br>
+        <!-- <div class="section-content">
+            <div class="art">
+                <div class="row"> -->
+        <!-- <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_Chariot_Hindi.png" data-lightbox="greetingImage"><img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Hindi_thumbnail.png" alt="image 1"></a>
+            </div>
+            </div> -->
+    <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/NewYear/UgadiGreetings.png" data-lightbox="greetingImage">
+                </a>
+            </div>
+        </div>
+    <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Holi/HoliGreetings_Hindi.png" data-lightbox="greetingImage">
+                </a>
+            </div>
+        </div>
+    <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Pongal/PongalGreetings_Hindi.png" data-lightbox="greetingImage">
+                </a>
+            </div>
+        </div>
+	<div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Pongal/PongalGreetings_Tamil.png" data-lightbox="greetingImage">
+                </a>
+            </div>
+        </div>
+	<div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Pongal/PongalGreetings_Telugu.png" data-lightbox="greetingImage">
+                </a>
+            </div>
+        </div>
+	<div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Pongal/PongalGreetings_Bengali.png" data-lightbox="greetingImage">
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/NewYear/EnglishNewYearGreetings_Hindi.jpg" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/NewYear/EnglishNewYearGreetings_Bengali.jpg" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/NewYear/EnglishNewYearGreetings_Malayalam.jpg" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/NewYear/EnglishNewYearGreetings_Tamil.jpg" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/NewYear/EnglishNewYearGreetings_Telugu.jpg" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_Chariot_Hindi.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_Chariot_Bengali.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Bengali_thumbnail.png" alt="image 2">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_Chariot_Kannada.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Kannada_thumbnail.png" alt="image 3">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_Chariot_Tamil.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Tamil_thumbnail.png" alt="image 4">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_Chariot_Telugu.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_Chariot_Telugu_thumbnail.png" alt="image 5">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Durga_Bengali.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Durga_Bengali_thumbnail.png" alt="image 6">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Durga_Hindi.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Durga_Hindi_thumbnail.png" alt="image 7">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Durga_Kannada.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Durga_Kannada_thumbnail.png" alt="image 8">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Durga_Tamil.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Durga_Tamil_thumbnail.png" alt="image 9">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Durga_Telugu.png" data-lightbox="greetingImage">
+                    <!--<img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Durga_Telugu_thumbnail.png" alt="image 10">-->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_sillhouette_Bengali.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_sillhouette_Bengali_thumbnail.png" alt="image 11"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_sillhouette_Hindi.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_sillhouette_Hindi_thumbnail.png" alt="image 12"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_sillhouette_Kannada.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_sillhouette_Kannada_thumbnail.png" alt="image 13"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_sillhouette_Tamil.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_sillhouette_Tamil_thumbnail.png" alt="image 14"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Navratri/Vijayadasami_Greeting_Rama_sillhouette_Telugu.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Navratri/Thumbnails/Vijayadasami_Greeting_Rama_sillhouette_Telugu_thumbnail.png" alt="image 15"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Diwali/DiwaliGreeting_Bengali.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Diwali/DiwaliGreeting_Bengali_thumbnail.png" alt="image 16"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Diwali/DiwaliGreeting_Hindi.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Diwali/DiwaliGreeting_Bengali_thumbnail.png" alt="image 17"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Diwali/DiwaliGreeting_Tamil.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Diwali/DiwaliGreeting_Bengali_thumbnail.png" alt="image 18"> -->
+                </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col-md-4">
+                <a href="media/Gallery/Greetings/Diwali/DiwaliGreeting_Telugu.png" data-lightbox="greetingImage">
+                    <!-- <img src="media/Gallery/Greetings/Diwali/DiwaliGreeting_Bengali_thumbnail.png" alt="image 19"> -->
+                </a>
+            </div>
+        </div>
+        <!-- </div>
+            </div>
+            </div>  -->    
+        <br>
+        <div class="section-content">
+        <div class="art">
+        <div class="row">
+            <!-- <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_1.jpg" data-lightbox="miscImage"><img src="media/Gallery/Misc/Thumbnails/Pic_1.jpeg" alt="image 1"></a>
+                </div>
+                </div> -->
+            <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_2.png" data-lightbox="miscImage">
+                        <!-- <img src="media/Gallery/Misc/Thumbnails/Pic_2.png" alt="image 2"> -->
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_3.jpg" data-lightbox="miscImage">
+                        <!-- <img src="media/Gallery/Misc/Thumbnails/Pic_3.jpeg" alt="image 3"> -->
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_4.png" data-lightbox="miscImage">
+                        <!-- <img src="media/Gallery/Misc/Thumbnails/Pic_4.png" alt="image 4"> -->
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_5.jpg" data-lightbox="miscImage">
+                        <!-- <img src="media/Gallery/Misc/Thumbnails/Pic_5.jpeg" alt="image 5"> -->
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_6.jpg" data-lightbox="miscImage">
+                        <!-- <img src="media/Gallery/Misc/Thumbnails/Pic_6.jpeg" alt="image 6"> -->
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-md-4">
+                    <a href="media/Gallery/Misc/Pic_7.jpg" data-lightbox="miscImage">
+                        <!-- <img src="media/Gallery/Misc/Thumbnails/Pic_7.jpeg" alt="image 7"> -->
+                    </a>
+                </div>
+            </div>
+            <!-- </div>
+                </div> -->
+            </section>
+            <div class="page-content-full" style="position: relative;top: -80px;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+            <section id="sponsorers" class="content-section">
+                <div class="section-heading" style="top: -60px">
+                    <h1><em>Sponsorers</em></h1>
+                </div>
+                <div class="section-content">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4>
+		    <a href="https://www.cholainsurance.com/" target="_blank"><font color="000080">Cholamandalam MS General Insurance Company Ltd, Chennai.</font></a>
+                            <h4>
+                        </li>
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h4>
+            <a class="button" href="#sponsorers-popup" target="_self"><font color="000080">Individual sponsorers</font></a>
+                            <h4>
+                        </li>
+                    </ul>
+                </div>
+		<div class="section-content">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h3>
+                            We are looking for new sponsorers. CSR sponsorers are most welcome.<br>
+			    <a href="https://goo.gl/h8jicL" target="_blank"><font color="000080">Click here to register your interest.</font></a>
+                            <h3>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="page-content-full" style="position: relative;top: 0;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+            <section id="team" class="content-section">
+                <div class="section-heading">
+                    <h1><em>Team</em></h1>
+                </div>
+                <div class="section-content">
+                    <h2 style="text-align: center; color: white"><strong>Project head</strong></h2>
+                    <br>
+                    <div id="team">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Project head">
+                                        <img src="img/Team/VSC.jpg" alt="Avatar" width="350" height="250">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Prof. V. Srinivasa Chakravarthy</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- <hr align="left"><table width="60%" border="0" align="center"></table> -->
+                    <br>
+                    <h2 style="text-align: center; color: white"><strong>Current members</strong></h2>
+                    <div id="team">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Ajith.jpg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Ajith Kumar N</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/ChandraSekhar.jpeg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Chandra Sekhar</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Pritam.jpeg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Pritam Majumdar</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Vikram.jpg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Vikram Kumar</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 style="text-align: center; color: white"><strong>Former members</strong></h2>
+                    <div id="team">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Balamurali.png" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Balamurali</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Krishna.jpg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Krishna Bharadwaj</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Mali.jpg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Mali Sundaresan</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-label="Current member">
+                                        <img src="img/Team/Srinath.jpeg" alt="Avatar" width="175" height="175">
+                                        <div class="name">
+                                            <div class="text-content">
+                                                <h1>Srinath Balakrishnan</h1>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <div class="page-content-full" style="position: relative;top: 0px;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+            <section id="people" class="content-section">
+                <div class="section-heading">
+                    <h1><em>People</em></h1>
+                </div>
+                <div class="section-content">
+                    <h3 style="color: white; text-align: left;"><strong>Bharati committee:</strong></h3>
+                    <p style="padding-left: 10px">Prof. V. Srinivasa Chakravarthy, Department of Biotechnology, IIT Madras.</p>
+                    <p style="padding-left: 10px">Prof. Rajesh Kumar, Department of Humanities and Social Sciences, IIT Madras.</p>
+                    <br>
+                    <h3 style="color: white; text-align: left;"><strong>Bharati collaborators:</strong></h3>
+                    <p style="padding-left: 10px">Meda Prasad, Teacher, Anantapur, Andhra Pradesh.</p>
+                    <p style="padding-left: 10px">Vijaybhaskar S., Teacher, Sholapur, Maharashtra.</p>
+                    <br>
+                    <h3 style="color: white; text-align: left;"><strong>Friends of Bharati:</strong></h3>
+                    <p style="padding-left: 10px">Prof. Shankar Narasimhan, Department of Chemical Engineering, IIT Madras.</p>
+                    <p style="padding-left: 10px">Prof. Raghunathan Rengasamy, Department of Chemical Engineering, IIT Madras.</p>
+                    <p style="padding-left: 10px">Prof. MS. Sivakumar, Department of Applied Mechanics, IIT Madras.</p>
+                    <p style="padding-left: 10px">Prof. S. Bapiraju, Central University of Hyderabad, Hyderabad.</p>
+                </div>
+            </section>
+        
+
+            <div class="page-content-full" style="position: relative;top: 0px;width: 100%;height: 8px;background:-webkit-linear-gradient(#CFB53B 40%,#996515 60% ); "></div>
+            <section id="testimonials" class="content-section">
+                <div class="section-heading">
+                        <h1><em>Testimonials</em></h1>
+                </div>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                                <!-- Carousel Slides / Quotes -->
+                                <div class="carousel-inner text-center">
+                                    <!-- Quote 1 -->
+                                    <div class="item active">
+                                        <blockquote style="padding-left: 50px; padding-right: 50px;">
+                                            <div class="row">
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    <p>Kudos IIT Madras: Easy OCR system for nine Indian languages. <a href="https://twitter.com/PrinSciAdvGoI/status/1122190960857759744"> See the tweet! </a></p>
+                                                    <small>K. VijayRaghavan - Principal Scientific Adviser, Govt. of India</small>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 2 -->
+                                    <div class="item">
+                                        <blockquote style="padding-left: 50px; padding-right: 50px;">
+                                            <div class="row">
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    <p>Indic Scripts evolved based on writing hardware. Moving towards teaching a common Indic script will help bridge languages. Bharati from IITM is one such attempt. <a href="https://twitter.com/sankrant/status/1023601877223493633"> See the tweet! </a></p>
+                                                    <small>Sankrant Sanu - Entrepreneur, writer and researcher</small>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 3 -->
+                                    <!-- <div class="item">
+                                        <blockquote style="padding-left: 50px; padding-right: 50px;">
+                                            <div class="row">
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    <p>A solution to many problems we face in day-to-day life. Hope this comes into practice soon!</p>
+                                                    <small>Mohan Kumar, NIT - Trichy</small>
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div> -->
+                                </div>
+                                <!-- Bottom Carousel Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="media/Testimonials/VijayRaghavan.jpg" alt="">
+                                    </li>
+                                    <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="media/Testimonials/SankrantSanu.jpg" alt="">
+                                    </li>
+                                    <!-- <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="media/Testimonials/MaleAvatar.jpg" alt="">
+                                    </li> -->
+                                </ol>
+            
+                                <!-- Carousel Buttons Next/Prev -->
+                                <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                                <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <div class="text">
+                    <p style="padding-left: 20%; text-align: center;">&copy; 2016-2019 Bharati</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="sponsorers-popup" class="popup-overlay">
+            <div class="popup">
+                <h2>List of individual sponsorers</h2>
+                <a class="close" href="#!" target="_self">&times;</a>
+                <div class="content">
+                    <ol>
+                        <li>Nuni Sudheer - Alumni, IIT Madras (2019)</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.addEventListener("load", function(){
+                const loader = document.querySelector(".loader");
+                loader.className += "-hidden";
+            });
+        </script>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+    </body>
+</html>

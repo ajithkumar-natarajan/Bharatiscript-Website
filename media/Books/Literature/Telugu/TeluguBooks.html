@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>List of Telugu books</title>
+		<link rel="shortcut icon" href="../../../../img/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../../../../img/favicon.ico">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../../../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../../../../css/templatemo-style.css">
+        <script src="../../../../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <style type="text/css">
+        body{
+            background-image: url(../../../../img/background_tile.png);
+        }
+
+
+        #socialMediaIcon {
+        /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+            filter: gray; /* IE5+ */
+            -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+            -webkit-transition: all .2s ease-in-out;
+        }
+
+        #socialMediaIcon:hover {
+            filter: none;
+            -webkit-filter: grayscale(0);
+        }
+
+        .table-responsive table {
+            margin: 0 auto;
+            color: #59ab52;
+
+        }
+    </style>
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script>
+            $(function(){
+              $("#navbarContent").load("/navbar.html"); 
+            });
+        </script>
+    
+    </head>
+
+    <body>
+
+    <div id="navbarContent"></div>
+
+    <div class="page-content">
+
+		<div class="section-heading container">
+			<br />
+			<br />
+			<br />
+			<h1><em>Telugu books in Bharati script</em></h1><br />
+			<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon">Search</span>
+					<input type="text" name="search_text" id="search_text" placeholder="Search by book details" class="form-control" />
+				</div>
+			</div>
+			<br />
+			<div id="result"></div>
+		</div>
+		<div style="clear:both"></div>
+		<br />
+        <br />
+        <div style="text-align: center;">
+		<h3 style="color: #59AB52">Interested in the script? Submit a Telugu book in Bharati script!</h3>
+        <br />
+        <div class="accent-button button"><a href="fileUpload.html" target="_blank">CONTRIBUTE</a>
+    </div>
+		<br />
+		<br />
+		<br />
+	</div>
+    </body>
+</html>
+
+
+<script>
+$(document).ready(function(){
+	load_data();
+	function load_data(query)
+	{
+		// alert("START: load_data....");
+		try{
+		$.ajax({
+			url:"fetchDataFromDB.php",
+			method:"post",
+			data:{query:query},
+			success:function(data)
+			{
+				console.log(data);
+				$('#result').html(data);
+			}
+		});
+		}catch(err){
+			alert(err.stack);
+		}
+	}
+	
+	$('#search_text').keyup(function(){
+		var search = $(this).val();
+		if(search != '')
+		{
+			load_data(search);
+		}
+		else
+		{
+			load_data();			
+		}
+	});
+});
+</script>
+
+
+
+

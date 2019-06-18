@@ -1,0 +1,9 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?bharatiscript\.com
+RewriteRule ^(.*)$ https://www.bharatiscript.com/$1 [R,L]
+
+#RewriteCond %{HTTP_HOST} ^(.+\.)?bharatiscript\.com$
+#RewriteRule ^(.*)$ https://%1bharatiscript.com/$1 [R,L]
