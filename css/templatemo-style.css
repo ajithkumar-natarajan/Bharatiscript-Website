@@ -1040,6 +1040,148 @@ news #news .content-section {
 }
 
 
+/* news Style */
+
+#artwork {
+    /*padding-left: 60px;
+  padding-right: 60px;*/
+    padding-bottom: 80px;
+    /*border-bottom: 1px solid #eee;*/
+}
+
+#artwork .section-heading {
+    /*margin-right: 20%;*/
+    artwork
+}
+
+artwork #artwork .content-section {
+    display: inline-block;
+    position: relative;
+}
+
+#artwork .owl-dots {
+    margin-top: 40px;
+}
+
+#artwork .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background-color: #cdcdcd!important;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+#artwork .owl-dots .active span {
+    background-color: #59AB52!important;
+}
+
+#artwork .owl-dots button {
+    outline: none;
+}
+
+#artwork .owl-nav {
+    position: absolute;
+    display: inline-block;
+    top: -60px;
+    right: 0;
+}
+
+#artwork .owl-nav button:focus {
+    outline: none;
+}
+
+#artwork .owl-nav .owl-prev span {
+    margin-right: 10px;
+}
+
+#artwork .owl-nav .owl-next span,
+#artwork .owl-nav .owl-prev span {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    background-color: #eee;
+    color: #232323;
+    font-size: 42px;
+    transition: all 0.5s;
+}
+
+#artwork .owl-nav span:hover {
+    background-color: #59AB52;
+    color: #fff;
+}
+
+#artwork .item {
+    text-align: center;
+    position: relative;
+    /*z-index: 10;*/
+}
+
+#artwork .item .image {
+    position: relative;
+}
+
+#artwork .item .image img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#artwork .item .image .news-button a {
+    artwork Sartwork S font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    background-image: url(../img/ocean.jpg);
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 9;
+    bottom: -44px;
+    opacity: 0;
+}
+
+#artwork .item:hover .artwork-button a {
+    bottom: 0;
+    opacity: 1;
+}
+
+#artwork .item .text-content {
+    padding-top: 20px;
+    background-image: url(../img/background_tile.png);
+    /*background-color: #fff;*/
+    position: relative;
+    z-index: 10;
+}
+
+#artwork .item .text-content h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}
+
+#artwork .item .text-content span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7a7a7a;
+    letter-spacing: 0.5px;
+    margin-bottom: 12.5px;
+}
+
+
 /* Video Presentation Style */
 
 #video {
