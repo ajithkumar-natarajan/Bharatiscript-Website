@@ -1,0 +1,10 @@
+body {
+  padding-top: 5rem;
+}
+
+/* FIX: */
+
+.fixed-top .navbar-collapse {
+  max-height: 340px;
+  overflow-y: auto;
+}

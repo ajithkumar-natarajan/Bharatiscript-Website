@@ -1,0 +1,96 @@
+#team table {
+  
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#team table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+#team table tr {
+  /*border: 1px solid #ddd;*/
+  padding: .35em;
+}
+
+#team table th,
+#team table td {
+  padding: .625em;
+  text-align: center;
+}
+
+#team table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+#team .name .text-content {
+  padding-top: 20px;
+  background-image: url(../img/background_tile.png);
+  /*background-color: #fff;*/
+  position: relative;
+  z-index: 10;
+}
+
+#team .name .text-content h1 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #59ab52;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 600px) {
+  /*#team table {
+    border: 0;
+  }*/
+
+  #team table caption {
+    font-size: 1.3em;
+  }
+  
+  #team table thead {
+    border: none;
+    /*clip: rect(0 0 0 0);*/
+    height: 1px;
+    /*margin: -1px;*/
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    /*width: 1px;*/
+  }
+  
+  #team table tr {
+    /*border-bottom: 3px solid #ddd;*/
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  #team table td {
+    /*border-bottom: 1px solid #ddd;*/
+    display: block;
+    font-size: .8em;
+    text-align: center;
+  }
+  
+  /*#team table td::before {
+    
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }*/
+  
+  /*#team table td:last-child {
+    border-bottom: 0;
+  }*/
+}
