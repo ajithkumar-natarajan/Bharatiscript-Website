@@ -1420,7 +1420,7 @@ artwork #artwork .content-section {
     border-radius: 0px;
     padding-left: 15px;
     font-size: 13px;
-    color: #aaa;
+    color: #000000;
     background-color: #f4f4f4;
     border: 1px solid #eee;
     outline: none;
@@ -1436,7 +1436,7 @@ artwork #artwork .content-section {
     padding-left: 15px;
     padding-top: 10px;
     font-size: 13px;
-    color: #aaa;
+    color: #000000;
     background-color: #f4f4f4;
     border: 1px solid #eee;
     outline: none;
@@ -1454,7 +1454,7 @@ artwork #artwork .content-section {
     font-weight: 600;
     color: #fff;
     text-transform: capitalize;
-    background-color: #45489a;
+    background-color: #59AB52;
     display: inline-block;
     height: 44px;
     line-height: 24px;
