@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "admin@bharatiscript.com";
+    $email_to = "bharatiscript@gmail.com";
     $email_subject = "You have a new reply in the contact form.";
  
     function died($error) {
